@@ -1,0 +1,31 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Genres</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+
+<div th:insert="blocks/admin_header :: admin_header"></div>
+
+<div class="container">
+
+    <main role="main">
+
+        <h1>Genres</h1>
+
+        <form action="genres/add" method="post">
+            <label style="width: 100%">
+                Name of genre
+                <input type="text" name="title" placeholder="Enter title of article" class="form-control"/>
+            </label>
+            <button type="submit" class="btn btn-success" style="margin: 3px">Add article</button>
+        </form>
+    </main>
+</div>
+
+</body>
+</html>

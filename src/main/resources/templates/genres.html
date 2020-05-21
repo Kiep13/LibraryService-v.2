@@ -1,0 +1,54 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Genres</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+
+<div th:insert="blocks/admin_header :: admin_header"></div>
+
+<div class="container">
+
+    <main role="main">
+
+        <h1>Genres</h1>
+
+
+
+        <button type="button" class="btn btn-outline-danger float-right my-1 mr-1" style="width: 35px; height: 35px; margin: 3px; align-content: center">
+            <i class="fa fa-trash-o"></i>
+        </button>
+
+        <button type="button" class="btn btn-outline-warning float-right my-1" style="width: 35px; height: 35px; margin: 3px">
+            <i class="fa fa-pencil"></i>
+        </button>
+
+        <button type="button"
+           class="btn btn-outline-success float-right my-1"
+           style="width: 35px; height: 35px; margin: 3px">
+            <i class="fa fa-plus"></i>
+        </button>
+
+        <table class="table">
+            <thead>
+            <tr>
+                <th>Id</th>
+                <th>Name</th>
+            </tr>
+            </thead>
+            <tbody>
+                <tr th:each="genre :${genres}">
+                    <td th:text="${genre.id}"></td>
+                    <td th:text="${genre.name}"></td>
+                </tr>
+            </tbody>
+        </table>
+    </main>
+</div>
+
+</body>
+</html>
