@@ -15,8 +15,7 @@ public class LibraryController {
     LibraryRepository libraryRepository;
 
     @RequestMapping(value = {"/libraries"}, method = RequestMethod.GET)
-    public @ResponseBody
-    Iterable<Libraries> getAllLibraries() {
+    public @ResponseBody Iterable<Libraries> getAllLibraries() {
         return libraryRepository.findAll();
     }
 

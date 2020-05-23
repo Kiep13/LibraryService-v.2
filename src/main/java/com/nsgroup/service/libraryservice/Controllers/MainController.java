@@ -20,4 +20,9 @@ public class MainController {
         adminRepository.save(admin);
     }
 
+    @RequestMapping(value = { "/log-in"}, method = RequestMethod.PUT)
+    public @ResponseBody Iterable<Admins> logIn(@RequestBody Admins admin) {
+        return adminRepository.findByLoginPaAndPassword(admin.getLogin(), admin.getPassword());
+    }
+
 }
