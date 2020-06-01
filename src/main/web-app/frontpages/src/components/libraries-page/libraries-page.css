@@ -1,0 +1,28 @@
+.libraries-tools .item-control{
+    margin: 3px;
+}
+
+.libraries-page .card {
+    padding: 10px;
+}
+
+.libraries-form {
+    height: 184px;
+}
+
+.libraries-form .form-button {
+    height : 40px;
+    float: right;
+}
+
+.libraries-form .form-label {
+    height : 40px;
+}
+
+.red-text {
+    color: crimson;
+}
+
+.red-box {
+    border: 2px solid crimson;
+}

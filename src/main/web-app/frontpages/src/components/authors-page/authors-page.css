@@ -1,0 +1,28 @@
+.authors-tools .item-control{
+    margin: 3px;
+}
+
+.authors-page .card {
+    padding: 10px;
+}
+
+/*.authors-form {*/
+/*    height: 184px;*/
+/*}*/
+
+.authors-form .form-button {
+    height : 40px;
+    float: right;
+}
+
+.authors-form .form-label {
+    height : 40px;
+}
+
+.red-text {
+    color: crimson;
+}
+
+.red-box {
+    border: 2px solid crimson;
+}

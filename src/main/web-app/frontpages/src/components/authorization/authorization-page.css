@@ -1,0 +1,41 @@
+.auth-screen {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.auth-block {
+    width: 400px;
+    /*height: 320px;*/
+    display: block;
+    border: black solid 1px;
+    top: 50%;
+    position: fixed;
+    left: 50%;
+    margin-left: -175px;
+    margin-top: -200px;
+}
+
+.label-block {
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+
+.auth-header {
+    height : 40px;
+    vertical-align: center;
+}
+
+.auth-header  h5{
+    align-self: center;
+    margin: auto;
+}
+
+.red-text {
+    color: crimson;
+}
+
+.red-box {
+    border: 2px solid crimson;
+}

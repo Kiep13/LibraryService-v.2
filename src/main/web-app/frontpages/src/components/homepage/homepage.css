@@ -1,0 +1,56 @@
+.home-header .home-logo{
+    font-size: 1.25rem;
+    margin-right: 3px;
+}
+
+.home-context .home-title {
+    width: inherit;
+}
+
+.home-dropdown {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.home-tools {
+    margin-right: 0;
+    margin-left: 0;
+    height: 40px;
+}
+
+.home-tools h5 {
+    margin-bottom: 0;
+}
+
+.home-library {
+    align-self: center;
+}
+
+.home-sort {
+    align-self: center;
+}
+
+.home-ldropdown {
+    align-self: center;
+}
+
+.home-sdropdown {
+    align-self: center;
+}
+
+.search-button {
+    float: right;
+}
+
+.home-form {
+    height: 136px;
+}
+
+.home-form .form-button {
+    height : 40px;
+    float: right;
+}
+
+.home-form .form-label {
+    height : 40px;
+}

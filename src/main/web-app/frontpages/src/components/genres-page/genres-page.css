@@ -1,0 +1,29 @@
+.genres-page .item-control{
+    margin: 3px;
+}
+
+.genres-page .card {
+    padding: 10px;
+}
+
+/*.genre-form {*/
+/*    height: 40px;*/
+/*}*/
+
+.genre-form .form-button {
+    float: right;
+    margin-top : 0;
+}
+
+.genre-form .form-label {
+    height : 40px;
+}
+
+.red-text {
+    color: crimson;
+}
+
+.red-box {
+    border: 2px solid crimson;
+}
+
